@@ -453,10 +453,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .type li{
-	display: block;
+	display: flex;
 	color: #f6f6f6;
-	/* border: 1px solid white; */
-	padding: 5px 10px;
+	padding: 10px 10px;
 	background-color: #54d0dd;
 	border-radius: 5px;
 }
