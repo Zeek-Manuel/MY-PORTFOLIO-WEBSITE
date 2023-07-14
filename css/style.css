@@ -465,5 +465,13 @@ h5{
 	font-size: 3rem;
 	padding-bottom: 20px;
 	text-decoration: underline;
+}
 
+@media (max-width: 768px) {
+	.type{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: 20px;
+		justify-content: center;
+	}
 }
